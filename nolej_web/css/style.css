@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: antiquewhite;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  margin: 50px 0 0 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: rgb(60, 106, 106);
+  transition: 1s;
+}
+
+h1:hover {
+  font-size: 150px;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  margin: 20px 0 0 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: rgb(154, 41, 13);
+}
+
+table {
+  color: rgb(44, 73, 76);
+  font-size: 45px;
+  border-collapse: collapse;
+}
+
+.table {
+  margin: 50px 0 20px 0;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(163, 171, 110);
+}
+
+tr:nth-child(even) {
+  background-color: rgb(94, 164, 171);
+}
+
+th, td {
+  padding: 10px;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+  margin: 0 0 8px 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: rgb(154, 41, 13);
+}
+
+ul {
+  font-size: 30px;
+  padding: 5px 0 5px 30px;
+  color: rgb(30, 57, 88);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+li {
+  width: 600px;
+  background-color: rgb(54, 155, 155);
+}
