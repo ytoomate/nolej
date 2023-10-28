@@ -6,7 +6,7 @@ function Label() {
    return (
       <div className='label-container'>
          <div className='left-content'>
-            <label>Name</label>
+            <label id="nnname">Asetkhan Tolganay</label>
          </div>
          <div className='right-content'>
             <img src={logo} alt="Logo" />

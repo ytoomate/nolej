@@ -1,21 +1,22 @@
 import React from 'react'
 import NavLogo from '../components/NavLogo/NavLogo'
-import '../components/NavLogo/NavLogo.css'
+import '../TemporaryHomePage/HomePageTemp.css'
 
 function HomePageTemp() {
+   const redirectToNewPage = () => {
+      window.location.href = 'nolej-react-app\src\Materials\Materials'; // Replace '/new-page' with the desired URL
+   };
+
    return (
       <>
          <NavLogo />
          <main>
-            <label>Приветствую тебя дорогой ученик!
-               давай продолжим нашу регистрацию в NOLEJ!</label>
-            <label>1) Пройди специализированный опрос от нас
-            </label>
-            <a target="_blank" href='https://forms.microsoft.com/Pages/ResponsePage.aspx?id=yVLbOR7jwkKAg3U1W3KN472I37MOhjBDge5TgatWlqNUQUdRUEw5NTBUTTVMQUVMSzYwUjNQVEhGQi4u'><button>Опрос</button></a>
-            <label>2) пройди специальную консультацию от нашего психолога
-            </label>
-            <a target="_blank" href='https://calendly.com/liljdbfhv'><button>Запись на консультацию</button></a>
-         </main>
+            <label >Приветствую тебя в NOLEJ дорогой ученик!</label>
+            <button onClick={redirectToNewPage}>Материалы</button>
+            <a rel="noreferrer" target=" _blank" href='https://calendly.com/liljdbfhv'><button>Связь с учителями</button></a>
+            <a rel="noreferrer" target=" _blank" href='https://calendly.com/liljdbfhv'><button>Связь с выпускниками</button></a>
+            <a rel="noreferrer" target=" _blank" href='https://calendly.com/liljdbfhv'><button>Профиль</button></a>
+         </main >
       </>
    )
 }

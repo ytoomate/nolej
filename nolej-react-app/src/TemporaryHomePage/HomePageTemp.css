@@ -1,8 +1,13 @@
 /* NavLogo */
 /* Add your styles for NavLogo here */
-
 /* Main Container */
+body {
+   background-color: #7E8BD9;
+}
+
 main {
+   width: 60%;
+   margin: 0 auto;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -23,7 +28,7 @@ button {
    font-size: 26px;
    padding: 10px 20px;
    /* Adjust the padding as needed */
-   background-color: #007bff;
+   background-color: #F2CF63;
    /* Button background color */
    color: #fff;
    /* Button text color */
@@ -36,9 +41,10 @@ button {
 }
 
 button:hover {
-   background-color: #0056b3;
+   background-color: #F2C063;
    /* Button background color on hover */
 }
+
 
 /* Anchor links for buttons */
 a {
